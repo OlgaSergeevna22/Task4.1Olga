@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    background: #E5E5E5;
+}
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+}
+
+header {
+    display: inline-block;
+    border-bottom: #C08D5D 1px solid;
+}
+
+header>img {
+    width: 39px;
+    height: 59px;
+}
+
+header a,
+nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav a {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration: none;
+    color: #000000;
+    margin-right: 53px;
+}
+
+nav {
+    margin: 59px 0 59px 83px;
+}
+
+.active {
+    color: #C08D5D;
+}
+
+body {
+    background: url(images/grape.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 660px 878px;
+}
+
+main {
+    color: #3F4042;
+}
+
+h1 span {
+    font-family: 'Yeseva One', cursive;
+    text-transform: none;
+    display: block;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    margin: 138px 0 7px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 70px;
+    font-family: 'Yeseva One', cursive;
+}
+
+h1 span::after {
+    content: '';
+    display: inline-block;
+    background-image: url(images/logo.svg);
+    width: 45px;
+    height: 69px;
+    margin-left: 8px;
+}
+
+h1::after {
+    content: '';
+    display: block;
+    background-image: url(images/line.svg);
+    width: 165px;
+    height: 12px;
+    margin: 45px 0 26px;
+}
+
+p {
+    width: 535px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 147.6%;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #3F4042;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    margin: 72px 0 63px;
+    border: 2px solid #C08D5D;
+    padding-left: 15px;
+    line-height: 64px;
+}
+
+.btn::after {
+    content: url(images/btn.svg);
+    display: inline-block;
+    width: 59px;
+    height: 64px;
+    background-color: #C08D5D;
+    line-height: 64px;
+    text-align: center;
+    margin-left: 11px;
+}
+
+.mouse {
+    display: block;
+    width: 33px;
+    height: 70px;
+    margin: 63px auto 69px auto;
+}
