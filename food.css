@@ -6,7 +6,7 @@
 
 html {
     scroll-behavior: smooth;
-    background: #E5E5E5;
+    /* background: #E5E5E5; */
 }
 
 .container {
@@ -17,6 +17,12 @@ html {
 header {
     display: inline-block;
     border-bottom: #C08D5D 1px solid;
+    padding-top: 59px;
+    padding-bottom: 59px;
+}
+
+nav {
+    margin-left: 83px;
 }
 
 header>img {
@@ -37,10 +43,6 @@ nav a {
     text-decoration: none;
     color: #000000;
     margin-right: 53px;
-}
-
-nav {
-    margin: 59px 0 59px 83px;
 }
 
 .active {
@@ -72,6 +74,7 @@ h1 {
     text-transform: uppercase;
     font-size: 70px;
     font-family: 'Yeseva One', cursive;
+    font-weight: 400;
 }
 
 h1 span::after {
@@ -81,6 +84,8 @@ h1 span::after {
     width: 45px;
     height: 69px;
     margin-left: 8px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
 }
 
 h1::after {
@@ -90,6 +95,7 @@ h1::after {
     width: 165px;
     height: 12px;
     margin: 45px 0 26px;
+    background-repeat: no-repeat;
 }
 
 p {
@@ -99,6 +105,7 @@ p {
     font-weight: 400;
     font-size: 18px;
     line-height: 147.6%;
+    letter-spacing: 0.06em;
 }
 
 .btn {
@@ -111,6 +118,7 @@ p {
     border: 2px solid #C08D5D;
     padding-left: 15px;
     line-height: 64px;
+    letter-spacing: 0.06em;
 }
 
 .btn::after {
